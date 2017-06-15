@@ -1,4 +1,4 @@
-# simplexAlgorthm
+# simplex-algorithm
 this include C++ implementation for Linear programming Simplex method
 
 The main method is in this program itself.
