@@ -7,9 +7,9 @@ Instructions for compiling=>> my IDE codeBlocks;
 
 Run on any gcc compiler=>>
 
-Special***** should compile in -std=c++11 or c++14 ********* (mat be other versions syntacs can be different)
+Important ***** Should be compiled in -std=c++11 or c++14 ********* (Other versions' syntax can be different)
 
-Tutorials Point online compiler ==> go to link http://cpp.sh/ or https://www.tutorialspoint.com/compile_cpp_online.php
+Tutorials Point online compiler ==> http://cpp.sh/ or https://www.tutorialspoint.com/compile_cpp_online.php
 And then go to c++ editor, copy the code and paste it. after that click on compile button and execute it.
 
 If you have -std=c++11 or C++14 you can run in command line; g++ -o output Simplex.cpp ./output
@@ -42,6 +42,7 @@ Example: maximize --> 6x + 5y + 4z
 			  x + 3y + 2z <= 300                   x + 3y + 2z +s2 = 300
 			  2x + y + 2z <= 240                    2x + y + 2z +s3 = 240
 You can make arryas like below using this:
+
 colSizeA = 6 // input column size 
 rowSizeA = 3 // input row size
 float C[N]={-6,-5,-4,0,0,0}; //Initialize the C array with the coefficients of the constraints of the objective function
